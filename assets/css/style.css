@@ -159,7 +159,7 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/sileder/sileder1.jpg') top center / cover no-repeat;
+    background: url('../img/sileder/sileder1.jpg') top center / cover no-repeat;
     
 }
 #sileder .text-content{
@@ -184,6 +184,7 @@ html{
 #sileder .text-description{
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 3px #000;
 }
 #content{
 
@@ -411,7 +412,12 @@ html{
 .contact-info i[class*="fa-"]{
     width: 30px;
 }
-
+.contact-info a{
+    opacity: 0.8;
+}
+.contact-info a:hover{
+    opacity: 1;
+}
 .contact-form{
     font-size: 15px;
 }
